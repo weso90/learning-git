@@ -9,3 +9,5 @@ for i, j in shopping_list.items():
     print(f"Idę do {i.capitalize()} i kupuję tam: {[j.capitalize() for j in j]}")
 
 print(f"W sumie kupuję {[sum(len(i) for i in shopping_list.values())]} towarów")
+
+print("Zmiana w kodzie w ramach ćwiczenia")
